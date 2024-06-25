@@ -8,11 +8,7 @@
 #include <boost/asio.hpp>
 #include <boost/asio/ts/buffer.hpp>
 #include <boost/asio/ts/internet.hpp>
-
-#include <boost/asio/error.hpp>
-
 #include <thread>
-#include <chrono>
 
 int main(int argc, char **argv)
 {
