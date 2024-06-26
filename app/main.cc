@@ -62,14 +62,14 @@
 #include "message.h"
 
 enum class Custom_msg_type : uint32_t {
-    FireBullet,
-    MovePlayer
+    Test1,
+    Test2
 };
 
 int main() {
 
     magno::net::mpi::message<Custom_msg_type> msg;
-    msg.header.id = Custom_msg_type::FireBullet;
+    msg.header.id = Custom_msg_type::Test1;
 
 
     int a = 1;
